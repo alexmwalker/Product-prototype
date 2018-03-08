@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Styles - Styles </title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" type="test/css" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.6.1/gridlex.min.css">
+  <!-- The Grid system-->
+  <link rel="stylesheet" type="test/css" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,600,700">
+  <!-- Font-->
+  <link rel="stylesheet" type="text/css" href="styles/css/checkout.css">
+</head>
+<body class="borders -labelling -vertical-rhythm">
+  <!-- header.pug-->
+  <header class="sitepoint">
+    <div class="container">
+      <div class="grid-12">
+        <div class="col-3">
+          <div class="branding"> <i class="fas fa-bars hamburger"></i><img class="branding-logo" src="https://cdn.rawgit.com/alexmwalker/038d08ab767b9fa0ae765b00d7f41622/raw/b3b34065187c08d94c85c5417030e2d881085c8a/sp-logo.svg"></div>
+        </div>
+        <div class="col-6"></div>
+        <div class="col-3">
+          <div class="dash-controls right-text"><i class="fas fa-tachometer-alt"></i> Dashboard</div>
+        </div>
+      </div>
+    </div>
+    <nav class="main">
+      <div class="container">
+        <div class="grid">
+          <div class="col">
+            <ul class="navbar">
+              <li><a href="#">Books<span class="note">1</span></a></li>
+              <li><a href="#">Courses</a></li>
+              <li><a href="#">Learning Paths</a></li>
+              <li><a href="#">Deals<span class="note">3</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="checkout">
+    <div class="container">
+      <div class="grid-12">
+        <div class="col-8">
+          <h3>col 6</h3>
+        </div>
+        <div class="col-4">
+          <div class="Cart_payment">
+            <div class="Cart_form t-bg-white">
+              <form-purchase-inline cc_required="true" enable_recaptcha="false" heading="2 years access to SitePoint Premium. Download all our books and courses for just $99." name="2-years-spp-for-99" paypal_checkout="false" product="Z2lkOi8vbGVhcm5hYmxlL1Byb2R1Y3QvMTE5" recaptcha_site_key="6LfNbAkUAAAAAABdwD-Abx1-JT--D7QCtAERx0UL" stripe_api_key="pk_live_LdoORv64yeHT6x6lSrRZ3ta1" submit="Get Started!">
+                <div data-reactroot="">
+                  <form class="Form">
+                    <div>
+                      <div class="l-pa3">
+                        <div class="l-w-100 l-mb3">
+                          <label class="f-smaller f-light" for="cardName">Card Name</label>
+                          <input class="Form_input l-w-100" id="cardName" type="text" name="cardName" placeholder="Bob T Builder">
+                        </div>
+                        <div>
+                          <label class="f-smaller f-light">
+                            <!-- react-text: 10-->Card Number
+                            <!-- /react-text-->
+                            <div class="l-mb3 l-mt2 m-border l-pa2 StripeElement--empty">
+                              <div class="__PrivateStripeElement" style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important;">
+                                <iframe frameborder="0" allowtransparency="true" scrolling="no" name="__privateStripeFrame3" allowpaymentrequest="true" src="https://js.stripe.com/v3/elements-inner-card-fc46555cc9b6940c0a5f024e93ccc35d.html#style[base][fontFamily]=Roboto%2C+Helvetica+Neue%2C+Helvetica%2C+Arial%2C+sans-serif&amp;style[base][color]=%23424242&amp;componentName=cardNumber&amp;wait=false&amp;rtl=false&amp;features[noop]=false&amp;origin=https%3A%2F%2Fwww.sitepoint.com&amp;referrer=https%3A%2F%2Fwww.sitepoint.com%2Fpremium%2Fproducts%2FZ2lkOi8vbGVhcm5hYmxlL1Byb2R1Y3QvMTE5&amp;controllerId=__privateStripeController0" title="Secure payment input frame" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; height: 16.8px;"></iframe>
+                                <input class="__PrivateStripeElement-input" aria-hidden="true" style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: 0px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important;">
+                              </div>
+                            </div>
+                          </label>
+                          <label class="f-smaller f-light">
+                            <!-- react-text: 13-->Card Expiration Date
+                            <!-- /react-text-->
+                            <div class="l-mb3 l-mt2 m-border l-pa2 StripeElement--empty">
+                              <div class="__PrivateStripeElement" style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important;">
+                                <iframe frameborder="0" allowtransparency="true" scrolling="no" name="__privateStripeFrame4" allowpaymentrequest="true" src="https://js.stripe.com/v3/elements-inner-card-fc46555cc9b6940c0a5f024e93ccc35d.html#style[base][fontFamily]=Roboto%2C+Helvetica+Neue%2C+Helvetica%2C+Arial%2C+sans-serif&amp;style[base][color]=%23424242&amp;componentName=cardExpiry&amp;wait=false&amp;rtl=false&amp;features[noop]=false&amp;origin=https%3A%2F%2Fwww.sitepoint.com&amp;referrer=https%3A%2F%2Fwww.sitepoint.com%2Fpremium%2Fproducts%2FZ2lkOi8vbGVhcm5hYmxlL1Byb2R1Y3QvMTE5&amp;controllerId=__privateStripeController0" title="Secure payment input frame" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; height: 16.8px;"></iframe>
+                                <input class="__PrivateStripeElement-input" aria-hidden="true" style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: 0px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important;">
+                              </div>
+                            </div>
+                          </label>
+                          <label class="f-smaller f-light">
+                            <!-- react-text: 16-->Card CVC
+                            <!-- /react-text-->
+                            <div class="l-mb3 l-mt2 m-border l-pa2 StripeElement--empty">
+                              <div class="__PrivateStripeElement" style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important;">
+                                <iframe frameborder="0" allowtransparency="true" scrolling="no" name="__privateStripeFrame5" allowpaymentrequest="true" src="https://js.stripe.com/v3/elements-inner-card-fc46555cc9b6940c0a5f024e93ccc35d.html#style[base][fontFamily]=Roboto%2C+Helvetica+Neue%2C+Helvetica%2C+Arial%2C+sans-serif&amp;style[base][color]=%23424242&amp;componentName=cardCvc&amp;wait=false&amp;rtl=false&amp;features[noop]=false&amp;origin=https%3A%2F%2Fwww.sitepoint.com&amp;referrer=https%3A%2F%2Fwww.sitepoint.com%2Fpremium%2Fproducts%2FZ2lkOi8vbGVhcm5hYmxlL1Byb2R1Y3QvMTE5&amp;controllerId=__privateStripeController0" title="Secure payment input frame" style="border: none !important; margin: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; height: 16.8px;"></iframe>
+                                <input class="__PrivateStripeElement-input" aria-hidden="true" style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: 0px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important;">
+                              </div>
+                            </div>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="t-bg-grey-200 l-pa3">
+                        <button class="Button l-w-100">Submit</button>
+                        <p class="Form_p f-small">
+                          <!-- react-text: 21-->By submiting this form, you agree to our
+                          <!-- /react-text--><br><a href="http://www.sitepoint.com/legals/" target="_blank">Terms of Service</a>
+                          <!-- react-text: 24-->
+                          <!-- /react-text-->
+                          <!-- react-text: 25-->and
+                          <!-- /react-text-->
+                          <!-- react-text: 26-->
+                          <!-- /react-text--><a href="http://www.sitepoint.com/privacy-policy/" target="_blank">Privacy Policy</a>
+                          <!-- react-text: 28-->.
+                          <!-- /react-text-->
+                        </p>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </form-purchase-inline>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer-->
+  <footer class="mainfooter">
+    <div class="container">
+      <div class="grid">
+        <div class="col">Stuff We Do
+          <ul>
+            <li class="l-ml3 f-c-grey-300 l-mb2 Footer-points"><a class="Footer-link f-small" href="/">SitePoint Home</a></li>
+            <li class="l-ml3 f-c-grey-300 l-mb2"><a class="Footer-link f-small" href="/versioning/">Versioning</a></li>
+            <li class="l-ml3 f-c-grey-300 l-mb2"><a class="Footer-link f-small" href="/themes/">Themes</a></li>
+            <li class="l-ml3 f-c-grey-300 l-mb2"><a class="Footer-link f-small" href="/community/">Forums</a></li>
+            <li class="l-ml3 f-c-grey-300 l-mb2"><a class="Footer-link f-small" href="/html-css/css/">References</a></li>
+          </ul>
+        </div>
+        <div class="col">About
+          <ul>
+            <li class="l-ml3 f-c-grey-300 l-mb2"><a class="Footer-link f-small" href="/about-us/">Our Story</a></li>
+            <li class="l-ml3 f-c-grey-300 l-mb2"><a class="Footer-link f-small" href="/press/">Press Room</a></li>
+          </ul>
+        </div>
+        <div class="col">Contact
+          <ul>
+            <li class="l-ml3 f-c-grey-300 l-mb2"><a class="Footer-link f-small" href="/contact-us/">Contact Us</a></li>
+            <li class="l-ml3 f-c-grey-300 l-mb2"><a class="Footer-link f-small" href="https://sitepoint.zendesk.com/hc/en-us">FAQ</a></li>
+            <li class="l-ml3 f-c-grey-300 l-mb2"><a class="Footer-link f-small" href="/write-for-us/">Write for Us</a></li>
+            <li class="l-ml3 f-c-grey-300 l-mb2"><a class="Footer-link f-small" href="/advertise/">Advertise</a></li>
+          </ul>
+        </div>
+        <div class="col">Legals
+          <ul>
+            <li class="l-ml3 f-c-grey-300 l-mb2"><a class="Footer-link f-small" href="/premium/legals">Terms of Use</a></li>
+            <li class="l-ml3 f-c-grey-300 l-mb2"><a class="Footer-link f-small" href="/premium/privacy-policy">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
